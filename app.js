@@ -1,4 +1,7 @@
 // import functions and grab DOM elements
+// const landscapeTab = document.getElementById('landscape-tab');
+// const homeStyleTab = document.getElementById('home-style-tab');
+// const mealTab = document.getElementById('meals-tab');
 
 // let state
 
