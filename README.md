@@ -14,7 +14,7 @@ select drop downs:
 
 
 
-1) **Make a drawing of your app. Simple "wireframes"**
+1) **Make a drawing of your app. Simple "wire frames"**
 1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
 1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
@@ -25,7 +25,7 @@ select drop downs:
 Additional considerations:
 - Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
 - Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
+  - What kinds of objects (i.e., Dogs, Friends, Todo, etc) will you need? 
   - What are the key/value pairs? 
   - What arrays might you need? 
   - What needs to live in a persistence layer?
