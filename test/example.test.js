@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { makeStatsString } from '../example.js';
+import { createCountString } from '../example.js';
 
 
 const test = QUnit.test;
@@ -10,7 +10,7 @@ test('time to test a function', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = makeStatsString['land', 'home', ' meal'];
+    const actual = createCountString['land', 'home', ' meal'];
 
     //Expect
     // Make assertions about what is expected versus the actual result
