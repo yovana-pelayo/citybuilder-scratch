@@ -2,11 +2,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(206, 219, 219);
+--color2: hsla(180, 95%, 8%, 1);
+--color3: hsla(180, 71%, 15%, 1);
+--color4: hsla(180, 93%, 18%, 1);
+--color5: hsla(180, 95%, 23%, 1);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -31,17 +31,19 @@ body {
     background-color: var(--color2);
 }
 
+
+
 main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,8 +56,8 @@ section {
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
+    display: flexbox;
+    justify-content:space-between;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
