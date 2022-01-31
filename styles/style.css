@@ -34,9 +34,9 @@ body {
 
 
 main {
-    display: flex;
+    display:flex;
     flex-direction: row;
-    justify-content: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
@@ -56,7 +56,7 @@ section {
 }
 
 header {
-    display: flexbox;
+    display: flex;
     justify-content:space-between;
     background-color: var(--color3);
     height: var(--header-height);
@@ -78,6 +78,7 @@ header img {
 }
 
 p {
+    color: aliceblue;
     margin: var(--gutter);
 }
   
@@ -90,4 +91,12 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+.tab {display: flex;
+    justify-content:stretch;
+    align-items: center;
+   background: transparent; 
+   width: fit-content;
+   color: yellowgreen;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
