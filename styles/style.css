@@ -2,11 +2,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(206, 219, 219);
+--color2: hsla(180, 95%, 8%, 1);
+--color3: hsla(180, 71%, 15%, 1);
+--color4: hsla(180, 93%, 18%, 1);
+--color5: hsla(180, 95%, 23%, 1);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -21,7 +21,7 @@ body {
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
-    
+    display: block;
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
@@ -31,31 +31,34 @@ body {
     background-color: var(--color2);
 }
 
+
+
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
     margin-bottom: calc(var(--footer-height));
 }
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    max-width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:row;
+    justify-content:space-evenly;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    z-index: 1;
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
@@ -63,22 +66,33 @@ header {
 
 
 h2 {
+    align-items: center;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.gutter-right {
-    margin-right: 20px;
-}
-
-header img {
-    height: var(--header-height);
+button {
+    background-color: rgb(85, 223, 223);
+  
 }
 
 p {
+    color:turquoise;
     margin: var(--gutter);
 }
   
+#report {
+    color: rgb(230, 13, 139);
+}
+
+#quotes {
+    color: rgb(49, 183, 236);
+   border: groove;
+   border-color: rgb(131, 215, 248);
+   background-color: rgba(243, 107, 209, 0.404);
+   border-radius:10px ;
+
+}
 footer {
     position: fixed;
     width: 100%;

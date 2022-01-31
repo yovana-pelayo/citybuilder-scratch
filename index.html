@@ -9,26 +9,61 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Dream City</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="./assets/big-logo.png" />
-        </div>
+       Dream City Builder
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
+            <img  />
             <h2>
-                Welcome to Alchemy Bootstrap!
+                Dream City 
             </h2>
-           
         </section>
+       
+        <div class="tab" id="landscape">
+            <select id="landscape-tab">
+                <option value="jungle">Jungle</option>
+                <option value="aquatic">Oceanic</option>
+                <option value="future">Futuristic</option>
+            </select>
+            <img id="land-image" src="./assets/aquatic-land.png">
+
+            </div>
+            <div class="tab" id="home-style">
+                <select id="home-style-tab">
+                    <option value="jungle">Tree-house</option>
+                    <option value="aquatic">Aquatic</option>
+                    <option value="future">Cube</option>
+                </select>
+                <img id="home-image" src="./assets/aquatic-home.png">
+                </div>
+                <div class="tab" id="meals">
+                    <select id="meals-tab">
+                        <option value="jungle">Plant-based</option>
+                        <option value="aquatic">Seafood</option>
+                        <option value="future">GMO</option>
+                    </select>
+                    <img id="meal-image" src="./assets/future-meal.png">
+                    </div>
+                    <label style="color: aqua;"> Leave us a slogan!
+                        <input id="quote-input">
+                        <button id="add-quote-button">ADD</button>
+                    </label>
+                    <div id="stats">
+                        <p id="report"></p>
+                            <div id="quotes"></div>
+                    </div>
+                 
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
+        <div>
+    
+        </div>
     </footer>
 
     <script type="module" src="./app.js"></script>
