@@ -21,7 +21,7 @@ body {
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
-    
+    display: block;
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
@@ -53,6 +53,7 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    z-index: 1;
 }
 
 header {
@@ -70,13 +71,28 @@ h2 {
     font-weight: bold;
 }
 
-
+button {
+    background-color: rgb(85, 223, 223);
+  
+}
 
 p {
-    color: aliceblue;
+    color:turquoise;
     margin: var(--gutter);
 }
   
+#report {
+    color: rgb(230, 13, 139);
+}
+
+#quotes {
+    color: rgb(49, 183, 236);
+   border: groove;
+   border-color: rgb(131, 215, 248);
+   background-color: rgba(243, 107, 209, 0.404);
+   border-radius:10px ;
+
+}
 footer {
     position: fixed;
     width: 100%;
